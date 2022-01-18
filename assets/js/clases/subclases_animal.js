@@ -10,7 +10,7 @@ class Leon extends Animal {
 
   rugir() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "/assets/sounds/Rugido.mp3");
+    player.setAttribute("src", "./assets/sounds/Rugido.mp3");
     player.play();
   }
 }
@@ -23,7 +23,7 @@ class Lobo extends Animal {
 
   aullar() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "/assets/sounds/Aullido.mp3");
+    player.setAttribute("src", "./assets/sounds/Aullido.mp3");
     player.play();
   }
 }
@@ -49,7 +49,7 @@ class Serpiente extends Animal {
 
   sisear() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "/assets/sounds/Siseo.mp3");
+    player.setAttribute("src", "./assets/sounds/Siseo.mp3");
     player.play();
   }
 }
@@ -62,7 +62,7 @@ class Aguila extends Animal {
 
   chillar() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "/assets/sounds/Chillido.mp3");
+    player.setAttribute("src", "./assets/sounds/Chillido.mp3");
     player.play();
   }
 }
