@@ -120,7 +120,7 @@ const resetForm = () => {
   nombreAnimal.selectedIndex = 0;
   aniosEdadAnimal.selectedIndex = 0;
   comentariosAnimal.value = "";
-  imgAnimalbg.style.backgroundImage = `url(${baseGHPages}/assets/imgs/lion.svg)`;
+  imgAnimalbg.style.backgroundImage = `url(${baseGHPages}assets/imgs/lion.svg)`;
 };
 
 window.sonidoAnimal = (i) => {
