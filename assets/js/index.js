@@ -7,7 +7,7 @@ import {
 } from "./clases/subclases_animal.js";
 
 const enviarForm = document.querySelector("#btnRegistrar");
-
+const baseGHPages = "/prueba_animales-salvajes2/";
 let listaAnimales = [];
 
 enviarForm.addEventListener("click", (e) => {
@@ -120,7 +120,7 @@ const resetForm = () => {
   nombreAnimal.selectedIndex = 0;
   aniosEdadAnimal.selectedIndex = 0;
   comentariosAnimal.value = "";
-  imgAnimalbg.style.backgroundImage = "url(/assets/imgs/lion.svg)";
+  imgAnimalbg.style.backgroundImage = `url(${baseGHPages}/assets/imgs/lion.svg)`;
 };
 
 window.sonidoAnimal = (i) => {
