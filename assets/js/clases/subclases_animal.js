@@ -2,6 +2,8 @@ import Animal from "./animal.js";
 
 // sub-clases
 
+const baseGHPages = "/prueba_animales-salvajes2/";
+
 class Leon extends Animal {
   constructor(nombre, edad, img, comentarios, sonido) {
     super(nombre, edad, img, comentarios, sonido);
@@ -10,7 +12,7 @@ class Leon extends Animal {
 
   rugir() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "./assets/sounds/Rugido.mp3");
+    player.setAttribute("src", `${baseGHPages}/assets/sounds/Rugido.mp3`);
     player.play();
   }
 }
@@ -23,7 +25,7 @@ class Lobo extends Animal {
 
   aullar() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "./assets/sounds/Aullido.mp3");
+    player.setAttribute("src", `${baseGHPages}/assets/sounds/Aullido.mp3`);
     player.play();
   }
 }
@@ -36,7 +38,7 @@ class Oso extends Animal {
 
   grunir() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "/assets/sounds/Gruñido.mp3");
+    player.setAttribute("src", `${baseGHPages}/assets/sounds/Grunido.mp3`);
     player.play();
   }
 }
@@ -49,7 +51,7 @@ class Serpiente extends Animal {
 
   sisear() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "./assets/sounds/Siseo.mp3");
+    player.setAttribute("src", `${baseGHPages}/assets/sounds/Siseo.mp3`);
     player.play();
   }
 }
@@ -62,7 +64,7 @@ class Aguila extends Animal {
 
   chillar() {
     const player = document.querySelector("#player");
-    player.setAttribute("src", "./assets/sounds/Chillido.mp3");
+    player.setAttribute("src", `${baseGHPages}/assets/sounds/Chillido.mp3`);
     player.play();
   }
 }
