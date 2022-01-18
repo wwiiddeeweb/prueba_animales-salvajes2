@@ -11,7 +11,7 @@ selector.addEventListener("change", async (e) => {
   const setImg = () => {
     const img = arrAnimales.find((e) => e.name === selectedAnimal).imagen;
     const div = document.querySelector("#preview");
-    div.style.backgroundImage = `url('../assets/imgs/${img}')`;
+    div.style.backgroundImage = `url('./assets/imgs/${img}')`;
   };
   setImg();
 });
