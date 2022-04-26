@@ -10,7 +10,7 @@ Screenshot:
 
 ![screenshot](https://i.ibb.co/D7vX5RL/Screen-Shot-2022-04-26-at-03-03-47.jpg "Screenshot")
 
-### Tecnologías:
+## Tecnologías:
 - Vanilla ES6 Avanzado con Programación Orientada a Objetos
 - Persistencia de datos con archivo JSON
 - Web Audio API
