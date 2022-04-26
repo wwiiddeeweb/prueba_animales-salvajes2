@@ -13,4 +13,5 @@ Screenshot:
 ## Tecnologías:
 - Vanilla ES6 Avanzado con Programación Orientada a Objetos
 - Persistencia de datos con archivo JSON
+- Bootstrap 4
 - Web Audio API
