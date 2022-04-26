@@ -7,6 +7,7 @@ esarrollado por Sebastián Kravetz.
 ---
 
 Screenshot:
+
 ![screenshot](https://i.ibb.co/D7vX5RL/Screen-Shot-2022-04-26-at-03-03-47.jpg "Screenshot")
 
 ### Tecnologías:
